@@ -1,0 +1,1 @@
+select * from locations where length(street_address) = (select min(length(street_address)) from locations);

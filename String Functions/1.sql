@@ -1,0 +1,1 @@
+select employee_id, substr(email, 1, length(email)-3) from employees;

@@ -1,0 +1,1 @@
+select avg(SALARY) from employees;
